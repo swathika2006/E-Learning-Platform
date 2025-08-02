@@ -1,0 +1,280 @@
+/* Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9ff;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  background-color: #6c5ce7;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #fff;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  margin-right: 20px;
+  color: #eee;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f3f0ff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #6c5ce7;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.header {
+  background-color: #6c5ce7;
+  padding: 20px 60px;
+  color: #fff;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.logo span {
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.hero {
+  background-color: #f9f5ff;
+  padding: 60px 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  color: #6c5ce7;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #6c5ce7;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+/* Course Section */
+.courses {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #6c5ce7;
+}
+
+.course-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background-color: #f3f0ff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.course-card p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.course-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.course-card span {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #6c5ce7;
+}
+
+.enroll-btn {
+  background-color: #6c5ce7;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.enroll-btn:hover {
+  background-color: #5842c3;
+}
+
+.btn:hover {
+  background-color: #5a4bdc;
+}
+
+.hero-image img {
+  width: 280px;
+  max-width: 100%;
+  
+}
+
+
+.nav a:hover {
+  color: #fff;
+}
+
+
+.hero p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Course Section */
+.courses {
+  padding: 40px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #6c5ce7;
+}
+
+.course-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background-color: #fff;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.course-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background-color: #6c5ce7;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
