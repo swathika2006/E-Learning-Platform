@@ -55,4 +55,4 @@ LearnEase showcases a blend of simplicity, elegance, and functionality. It is a 
 
 
 **OUTPUT**
-
+<img width="1916" height="884" alt="Image" src="https://github.com/user-attachments/assets/6743293a-e073-41c0-ba52-84aaafa2915f" />
